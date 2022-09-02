@@ -55,14 +55,13 @@ function Component() {
 }
 
 var App = React.render(Component);
-//App.typeText("watermelon");
+App.typeText("watermelon");
 App.click();
+
 var App = React.render(Component);
-//App.typeText("lemon");
+App.typeText("lemon");
 App.typeFruit("🍓")
-//App.click();
+App.click();
+
 var App = React.render(Component);
-//App.typeText("apppppppp");
-//var App = React.render(Component);
-//var App = React.render(Component);
-//var App = React.render(Component);
+
